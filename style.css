@@ -1,0 +1,214 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*********** HEADER ************/
+
+
+header {
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+	color: maroon;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+header a {
+	color: maroon;
+
+	text-decoration: none;
+	padding: 20px;
+}
+
+a:hover {
+	color: maroon;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 0px;
+	border-bottom: 0px;
+	font-weight: bolder;
+}
+
+.h1-responsive {
+	font-size: 30px;
+	margin: 0px;
+	border-bottom: 0px;
+	color: DarkSalmon;
+	font-weight: bolder;
+}
+
+.mb-5 {
+	color: DimGray;
+}
+
+h3 {
+	margin: 0px;
+	border-bottom: 0px;
+	font-weight: bold;
+	color: DarkSalmon;
+}
+
+.desc {
+	font-weight: lighter;
+	font-style: italic;
+	color: gray;
+}
+
+
+/*********** BODY ************/
+
+
+
+
+
+/*********** PRODUCTS ************/
+.section-title {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+#grid-container {
+	display: grid;
+  	grid-row-gap: 50px;
+  	padding-bottom: 100px;
+}
+
+.category {
+	display: grid;
+  	grid-gap: 0px;
+	grid-row-start: 1;
+  	grid-row-end: 3;
+  	padding-left: 100px;
+  	align-content: center;
+}
+
+.category a {
+	padding-top: 20px;
+	padding-left: 35px;
+	color: olive;
+	text-decoration: none;
+}
+
+#suggestions {
+	display: grid;
+}
+
+.sugg-item {
+	padding-bottom: 15px;
+	font-size: 25px;
+	margin-left: 20px;
+
+  	grid-gap: 50px;
+	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+
+.prod-info {
+	color: olive;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 70px;
+
+	grid-gap: 50px;
+	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+
+.prod-info a {
+	color: olive;
+	text-decoration: none;
+}
+
+.products {
+	color: olive;
+	text-decoration: none;
+	text-align: left;
+}
+
+.products a {
+	padding: 0px;
+	color: olive;
+	text-decoration: none;
+}
+
+.product-title {
+	text-align: left;
+	padding: 0px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	font-style: bold;
+	line-height: 45px;
+}
+
+form {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+
+
+/*********** CONTACT ************/
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: DarkSalmon;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: Salmon;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+/*********** FOOTER ************/
+footer {
+	text-align: right;
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+	color: maroon;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+}
+
+.left {
+	text-align: left;
+}
+
+
+
+
+
