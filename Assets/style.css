@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*********** HEADER ************/
+
+
+header {
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+	color: maroon;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+header a {
+	color: maroon;
+
+	text-decoration: none;
+	padding: 20px;
+}
+
+a:hover {
+	color: maroon;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 0px;
+	border-bottom: 0px;
+	font-weight: bolder;
+}
+
+.h1-responsive {
+	font-size: 30px;
+	margin: 0px;
+	border-bottom: 0px;
+	color: DarkSalmon;
+	font-weight: bolder;
+}
+
+.mb-5 {
+	color: DimGray;
+}
+
+h3 {
+	margin: 0px;
+	border-bottom: 0px;
+	font-weight: bold;
+	color: DarkSalmon;
+}
+
+.desc {
+	font-weight: lighter;
+	font-style: italic;
+	color: gray;
+}
+
+
+
+/*********** CONTACT ************/
+
+form {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: DarkSalmon;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: Salmon;
+}
+
+
+button {
+  background-color: DarkSalmon;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  animation: pulse
+}
+
+button:hover {
+  background-color: Salmon;
+}
+
+button:active {
+	transform: scale3d(1.1, 1.1, 1.1);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*********** ANIMATION ************/
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+/*********** FOOTER ************/
+footer {
+	text-align: right;
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+	color: maroon;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+}
+
+.left {
+	text-align: left;
+}
